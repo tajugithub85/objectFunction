@@ -1,0 +1,72 @@
+Object and function Exercise                                                                                                                                                                    
+Part 1
+1. Create an object that has your firstName, lastName, and occupation as keys.
+Solution                     
+Var FirstLastOccupation{
+first_Name: “Tahiru”,
+Last_name: “Tajudin”,
+Occupation: ” software Engineer”
+};
+2. Access each value from your object using both dot notation and bracket notation
+solution
+Dot Notation.
+FirstLastOccupation.First_Name //Return Tahiru
+FirstLastOccupation.Last_Name // Return Tajudin
+FirstLastOccupation.Occupation //Return Software Engineer
+
+Bracket Notation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+FirstLastOccupation[First_Name] //Return Tahiru
+FirstLastOccupation[Last_Name] // Return Tajudin
+FirstLastOccupation[Occupation] //Return Software Engineer
+
+Add a key for hobby to your object. Remove the key and value for occupation.
+
+solution 
+>>FirstLastOccupation.hobby = "reading" 
+>>Delete FirstLastOccupation.Occupation
+
+What is the difference between dot notation and bracket notation?  
+                                                                                                                                                                                                                                                                                                                     
+3. Given the following object below, write code to print the value then the key to the console separated by '=>': 
+var namesAndHobbies = {
+    elie: "JavaScript",
+    matt: "jogging",
+    janey: "table building",
+    tim: "sailing"
+
+
+
+Solution
+var namesAndHobbies = {
+for ( var equalGrater in var namesAndHobbies){
+}
+ console.log( "=>",FirstLastOccupation[equalGrater]);
+Below is the output
+// JavaScript => elie
+// jogging => matt
+// table building => janey
+// sailing => tim
+
+4. Add a key for your name, and a value for your favorite hobby to the namesAndHobbies object.  
+solution                                                                                            
+namesAndHobbies.My_Name = “Tahiru”
+namesAndHobies.Hobbies = “Javascript, HTML”                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+5. Write an if statement that console.logs your name and hobby to the console if the key of your name is contained in the object.
+
+solution
+If (“My_Name”,”Hobbies” in namesAndHobies){
+console.log(“your Name and Hobbies are existed”)
+}
+If  If (“Not My_Name”,”Hobbies” in namesAndHobies){
+}
+console.log(“your Name and Hobbies are Not existing”)
+}
+
+
+
+
+
+
+
+
+

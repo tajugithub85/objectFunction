@@ -1,0 +1,46 @@
+Part 2
+For each of the exercises below, assume you are starting with the following programming object.
+var programming = {
+    languages: ["JavaScript", "Python", "Ruby"],
+    isChallenging: true,
+    isRewarding: true,
+    difficulty: 8,
+    jokes: "http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke"
+};
+
+1. Write the command to add the language "Go" to the end of the languages array.
+
+solution
+>>programming.language.push(“Go”)
+Change the difficulty to the value of 7.
+
+solution
+>>Programming.difficulty = 8
+
+Using the delete keyword, write the command to remove the jokes key from the programming object.
+
+solution
+>>Delete programmig.jokes
+
+Write the command to add a new key called isFun and a value of true to the programming object.
+
+solution
+programming.isFun = “true”
+ 
+Using a loop, iterate through the languages array and console.log all of the languages.
+
+solution
+for(var arr in programming.languages ){
+console.log (programming.languages[arr]); 
+}
+Using a loop, console.log all of the keys in the programming object.
+Using a loop, console.log all of the values in the programming object.
+solution
+for(var value in programming){ 
+console.log (programming[value]);
+ }
+
+
+
+
+
